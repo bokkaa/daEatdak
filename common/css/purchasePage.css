@@ -62,18 +62,23 @@ fieldset h4 {
     bottom: 10px;
 }
 .order-goods-section {
-    border-bottom: 1px solid gray;
     margin: 0 auto;
     width: 600px;
     margin-top: 30px;
     padding: 20px;
     height: 100%;
+   
+}
+
+.order-goods-info {
+    height: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 600px;
+    border-bottom: 1px solid gray;
 }
-.order-goods-name-price {
-}
+
 .order-goods-name-price h5 {
     width: 40px;
     font-family: 'MaplestoryOTFBold';
@@ -81,8 +86,8 @@ fieldset h4 {
 }
 .order-goods-section input:nth-child(1)
 {
-    width: 100px;
-    height:100px;
+    width: 130px;
+    height:130px;
 
 }
 
